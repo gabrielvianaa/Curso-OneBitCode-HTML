@@ -1,0 +1,22 @@
+body{
+    background-color: #2c3e50 ;
+}
+h1 {
+    color: #FFFFFF ;
+}
+h3 {
+    color: #f1c40f ;
+}
+div ul{
+    color: #FFFFFF;
+}
+div ul id="astro"{
+    color: #FFFFFF; 
+}
+#astro{
+    color: #e74c3c ;
+}
+h2{
+    background-color: #f1c40f;
+    border: solid;
+}
