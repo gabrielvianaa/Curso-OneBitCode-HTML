@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Cadastro da liga dos astronautas</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h3>Cadastro da liga dos astronautas</h3>
+        <form caption="">
+            <div>
+                <label for="name">Nome: </label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div><br>
+                <label for="mail">Email: </label>
+                <input type="email" id="mail" name="email" required>
+                <label for="psw">- Password: </label>
+                <input type="password" id="psw" name="password" required>
+            </div><br>
+            <div>
+                <label for="date">Data de nascimento: </label>
+                <input type="date" id="date" name="data de nascimento" required>
+                <label for="pic">Foto: </label>
+                <input type="file" id="pic" name="foto" required>
+            </div><br>
+            <div>
+                <label for="nacionality">Nacionalidade: </label>
+                <select id="nacionality" name="nacionalidade" required>
+                    <option value="Russo">Russo</option>
+                    <option value="Americano">Americano</option>
+                    <option value="Canadense">Canadense</option>
+                    <option value="Brasileiro">Brasileiro</optio0n>
+                </select>
+                Gênero:
+                <label for="female">F:</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="male">M:</label>
+                <input type="radio" id="male" name="gender" value="male">
+
+            </div><br>
+            <div>
+                Suas principais qualidades:<br>
+                <label for="int">Inteligência</label>
+                <input type="checkbox" id="int" name="smart">|
+                <label for="res">Resiliência</label>
+                <input type="checkbox" id="red" name="resilience">|
+                <label for="pf">Preparo Físico</label>
+                <input type="checkbox" id="pf" name="Fisic">|
+                <label for="educ">Educação:</label>
+                <input type="checkbox" id="educ" name="education">|
+            </div><br>
+            <div>
+                <label for="Text"></label>
+                <textarea id="text" name="box" placeholder="Porque você gostaria de ser um astronauta?" rows="10" cols="35"></textarea>
+            </div><br>
+            <input type="submit">
+        </form>
+    </body>
+
